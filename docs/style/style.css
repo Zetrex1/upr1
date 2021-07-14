@@ -1,0 +1,50 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/72/5b/06/725b06130dd35d4b1a629857871af073.jpg");
+color:white;
+}
+ul
+{
+    color: orangered;
+}
+.ulli{
+    list-style: armenian;
+}
+
+.unndlnd{
+    text-decoration:underline;
+}
+
+.ybgrd{
+    background-color:gray;
+}
+
+.card-menu{
+   display:flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding:2rem;
+}
+.card.menu div{
+max-width:18rem;
+}
+
+.card-holder{
+    display: flex;
+}
+
+.card-holder>div{
+    border: solid 3px gray;
+    padding: 0.5rem;
+    margin: 1rem;
+    min-width: 12rem;
+    max-width: 18rem;
+}
+
+.card-holder>div:hover{
+    -webkit-box-shadow: 0px -2px 6px 10px #FF4F17; 
+    box-shadow: 0px -2px 6px 10px #FF4F17;
+}
+
+.nav-link{
+    font: size 60px;
+}
